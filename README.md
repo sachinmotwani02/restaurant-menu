@@ -1,1 +1,1 @@
-# VaccineBuddy
+# BSDU-Frontend
