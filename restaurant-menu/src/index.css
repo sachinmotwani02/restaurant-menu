@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.image-con{
+  height: 35vh;
+  width: 100%;
+  background-image: url(./assets/images/farzi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.welcome-text{
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.para{
+  font-weight: 400;
+  color: #383838;
+  font-size: 14px;
+}
+
+.enter{
+  margin-top: 40px;
+  font-weight: 400;
+  color: #646464;
+  font-size: 14px;
+}
+
+.continue-button{
+  font-family: 'Poppins', sans-serif ;
+  background-color: #1F1E1E !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px !important;
+}
+
+.contain{
+  height: 60vh;
+}
+
+.con{
+  height: 100%;
+}
+
+.MuiToggleButtonGroup-grouped{
+  border: none !important;
+  padding: 25px !important;
+  font-size: 17px !important;
+  font-weight: 600 !important;
+}
+
+.where-seated{
+  background-image: url(./assets/images/back.png);
+  width: 100%;
+  height: 240px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.white-text{
+  color: white;
+  width: 140px;
+  font-size: 26px;
+}
+
+.link{
+  color: black;
+}
+
+.container{
+  background-color: #F6F6F6;
+}
+
+.dish-contain{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 70px;
+  margin-top: 30px;
+}
+
+.dish-img{
+  height: 100%;
+  background-color: rgb(177, 177, 177);
+  width: 80px;
+  border-bottom-right-radius: 20px;
+  background-size: cover;
+  background-position: center;
+}
+
+.dish-info{
+  margin-left: 6px;
+  margin-top: 11px;
+  display: flex;
+  flex-direction: column;
+}
+
+.counter{
+  margin-left: 7px;
+  flex-shrink: initial;
+}
+
+.quan{
+  font-weight: 400;
+  font-size: 16px;
+  margin-right: 4px;
+}
+
+.dish-title{
+  margin : 0px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.price{
+  font-weight: 300;
+  color: #1F1E1E;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.para{
+  color: #1F1E1E !important;
+  margin-top: 20px;
+  font-size: 13px;
+}
