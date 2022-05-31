@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Home from './screens/Home';
@@ -10,10 +10,14 @@ import {
   Route,
 } from "react-router-dom";
 import Cart from './screens/Cart';
+import ReactDOM from 'react-dom'
 
 
 
 function App() {
+  useEffect(() => {
+    document.title = "Momofuku Restaurant Menu"
+  }, [])
   return (
     <Router>
         <Switch>
