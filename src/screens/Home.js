@@ -88,7 +88,7 @@ const Home = (props) => {
                 </Badge>
                 </Link>
             </div>
-            <p className= "para">This project is made on react with redux used for state management. Don't forget to enjoy your food :{')'}</p>
+            <p className= "para">This project is made on react with redux used for state management.<br></br>Bon appétit!</p>
             {itemList}
     </div>
     )

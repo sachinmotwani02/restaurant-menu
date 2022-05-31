@@ -39,6 +39,20 @@ const initState = {
             price: 370,
             quantity: 0
         },
+        {
+            id: 6,
+            name: 'Pizza Farmhouse',
+            img: 'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+            price: 420,
+            quantity: 0
+        },
+        {
+            id: 7,
+            name: 'Garlic Bread',
+            img: 'https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1196&q=80',
+            price: 320,
+            quantity: 0
+        },
     ],
     addedItems: [],
     total: 0

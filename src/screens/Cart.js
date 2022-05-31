@@ -78,7 +78,7 @@ const Cart = (props) => {
                 <img src={logo} alt="farzi" />
             </div>
             {addedItems}
-            <h2>Total: {props.total}₹</h2>
+            <h2 className="total">Total: {props.total + props.total/20}₹ <h6>inclusive of tax</h6></h2>
             <Button 
             fullWidth 
             disableElevation 
