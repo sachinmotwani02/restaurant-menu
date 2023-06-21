@@ -19,4 +19,4 @@ Contributions to this project are welcome. Feel free to open issues and submit p
 ## Contact
 
 Made with love by Sachin <3 
-Email at sachinmotwani60@gmail.com for any inquires
+Email at sachinmotwani60@gmail.com for any inquiries
